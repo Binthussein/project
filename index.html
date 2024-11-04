@@ -1,57 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-  <header class="header">
-    <a href="#" class="logo">Fardowsa.</a>
-    <nav class="navbar">
-        <a href="#" style="--i:1" class="active">Home</a>
-        <a href="#" style="--i:2" >About</a>
-        <a href="#" style="--i:3">Project</a>
-    
-        
-
-    </nav>
-
-  </header>
-  <selection class="Home">
-    <div class="Home-content">
-      <h3>Hello it's Me</h3>
-      <h1>Fardowsa Hussein</h1>
-      <h3>And I'm a <span> Software Engineer</span></h3>
-      <p>In software development, the best ideas are often the old ideas.</p>
-      <div class="social-media">
-        <a href="https://www.instagram.com/princessfaro4" style="--i:6"><i class="bx bxl-instagram"></i></a>
-        <a href="https://github.com/Binthussein" target="_blank" style="--1:7"><i class="bx bxl-github"></i></a>
-        <a href="https://wa.me/254757488229" style="--i:8"><i class="bx bxl-whatsapp"></i></a>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header class="header" style="background-color: #010101;">
+      <a href="#" class="logo">Fardowsa.</a>
+      <nav class="navbar">
+        <a href="#" style="--i: 1" class="active">Home</a>
+        <a href="#about" style="--i: 2">About</a>
+        <a href="#projects" style="--i: 3">Projects</a>
+      </nav>
+    </header>
+    <selection class="Home">
+      <div class="Home-content">
+        <h3>Hello it's Me</h3>
+        <h1>Fardowsa Hussein</h1>
+        <h3>And I'm a <span> Software Engineer</span></h3>
+        <p>In software development, the best ideas are often the old ideas.</p>
+        <div class="social-media">
+          <a href="https://www.instagram.com/princessfaro4" style="--i: 6"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a
+            href="https://github.com/Binthussein"
+            target="_blank"
+            style="--1: 7"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://wa.me/254757488229" style="--i: 8"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+        </div>
       </div>
-      <a href="#" class="btn">Dowload CV</a>
+      <div class="Home-img">
+        <img
+          src="https://www.intellectsoft.net/blog/wp-content/uploads/software-developer-vs-software-engineer.png"
+          alt=""
+        />
+      </div>
+    </selection>
+    <div id="about">
+      <h1 style="text-align: center; margin-bottom: 10px;">About Me</h1>
+      As a passionate Full Stack Software Engineer, I thrive at the intersection of design and technology. With a strong foundation in both 
+    front-end and back-end development, I enjoy crafting seamless and intuitive web applications that enhance user experience. My journey in
+    software development has equipped me with a diverse skill set, including proficiency in modern frameworks, databases, and cloud 
+    technologies. I am committed to continuous learning and staying up-to-date with industry trends, allowing me to tackle challenges 
+    creatively and deliver efficient solutions. My goal is to contribute to innovative projects that make a positive impact while 
+    collaborating with like-minded professionals in a dynamic environment.
     </div>
-     <div class="Home-img">
-      <img src="https://www.intellectsoft.net/blog/wp-content/uploads/software-developer-vs-software-engineer.png" alt="">
-      
-     </div>
-  </selection>
-  
-  
 
-  
-  
-  
-  
-  
-  
+    <section class="projects" id="projects">
+      <h2>Projects</h2>
+      <div class="project-container">
+        <div class="project">
+          <h3>CSS Rainbow Lab</h3>
+          <p>In this lab, we're going to make a rainbow with HTML div elements. And while we do it we're going to learn about HTML elements, CSS styling, CSS selectors, how color works in CSS and importing style sheets.</p>
+          <a href="https://github.com/Binthussein/phase-0-css-rainbow-lab" target="_blank" class="btn">View Project</a>
+        </div>
+        <div class="project">
+          <h3>html Album Cover</h3>
+          <p>Learning all the individual pieces that make up a web page is a necessary first step in the process of learning HTML, but one of the best ways to solidify the concepts we've learned is to apply concepts together. In this lab, your task will be to update index.html based on commented notes in the file, using what we've learned about text formatting and displaying images.</p>
+          <a href="https://github.com/Binthussein/phase-0-html-album-cover-lab" target="_blank" class="btn">View Project</a>
+        </div>
+        <div class="project">
+          <h3>html table labs</h3>
+          <p> we can create lists of related content using unordered and ordered lists, and they will display line by line in the order we put them in.HTML has a built in way to display tables! In this project, we will be reviewing how tables work and how to make our own.
+          </p>
+          <a href="https://github.com/Binthussein/phase-0-html-tables-lab" target="_blank" class="btn">View Project</a>
+        </div>
+      </div>
+    </section>
+    
 
-   
-</body>
-
-
-
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 Fardowsa. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
 </html>
